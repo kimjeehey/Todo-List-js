@@ -5,6 +5,34 @@
 }
 
 body {
-  background-color: #d2ff9f;
+  background-color: #b9ffbf;
+  color: black;
   font-family: "DM Sans", sans-serif;
+  min-height: 100vh;
+}
+
+header {
+  font-size: 1.5rem;
+}
+
+header,
+form {
+  min-height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form input,
+form button {
+  height: 64px;
+  padding: 1rem;
+  font-size: 1rem;
+  border: solid 1px black;
+  background-color: transparent;
+}
+
+form button {
+  background-color: black;
+  color: #b9ffbf;
 }
